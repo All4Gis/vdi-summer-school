@@ -60,6 +60,7 @@ End_Group
 
 example:
 
+```
 Group = Mapping
     ProjectionName     = EQUIRECTANGULAR
     CenterLongitude    = 0.0
