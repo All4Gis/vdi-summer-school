@@ -1,5 +1,7 @@
 ## useful commands
 
+The following commands are part of [GDAL](https://www.gdal.org). The same (and much more) could be achieved with [Isis3](https://isis.astrogeology.usgs.gov), see also references on [resources](resouces.md).
+
 ### visualise  map projection code (proj4)
 
 one can use ```gdalsrsinfo```, e.g.
