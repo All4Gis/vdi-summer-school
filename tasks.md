@@ -14,11 +14,11 @@
 - Try and draw tick marks of longitude, latitude
 - look for features you can locate via web services (see [resources](resources.md), e.g. "Find an image over Mons Olympus"
 
-### Task 2 (Friday?)
+### Task 2
 
-- look for HRSC data over Valles Marineris on [USGS Pilot](http://pilot.wr.usgs.gov) (see [resources](resources.md))
+- look for HRSC data over Valles Marineris on [Mars ODE](http://ode.rsl.wustl.edu/mars/index.aspx) (see [resources](resources.md))
 - download 2 adjacent red channel images
-- change projection to both with gdal (see [useful-commands](useful-commands.md))
+- change projection of both with gdal (see [useful-commands](useful-commands.md)) and [data](data.md)
 - load them onto QGis
 
 ### Task 3
