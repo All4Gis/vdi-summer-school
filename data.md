@@ -76,29 +76,30 @@ End_Group
 
 ### Moon (LROC exemplary)
 
-LROC NAC over Apollo 17 landing sites
+#### LROC NAC over Apollo 17 landing sites
 
 ```
-http://lroc.sese.asu.edu/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1011/DATA/SCI/2012147/NAC/M192703697RC.IMG
-http://lroc.sese.asu.edu/data/LRO-L-LROC-3-CDR-V1.0/LROLRC_1007/DATA/SCI/2011158/NAC/M162107606LC.IMG
+http://pdsimage.wr.usgs.gov/Missions/Lunar_Reconnaissance_Orbiter/LROC/EDR/LROLRC_0001/DATA/COM/2009192/NAC/M101949648LE.IMG
+http://pdsimage.wr.usgs.gov/Missions/Lunar_Reconnaissance_Orbiter/LROC/EDR/LROLRC_0001/DATA/COM/2009192/NAC/M101956806LE.IMG
+http://pdsimage.wr.usgs.gov/Missions/Lunar_Reconnaissance_Orbiter/LROC/EDR/LROLRC_0003/DATA/MAP/2010141/NAC/M129086118LE.IMG
+http://pdsimage.wr.usgs.gov/Missions/Lunar_Reconnaissance_Orbiter/LROC/EDR/LROLRC_0001/DATA/MAP/2009356/NAC/M116113215LE.IMG
 ```
+
+data have been processed with isis3 to level2 (i.e. map-projected)
+
 
 ### Mercury
 
-list of EDR
+list of EDR:
 
 #### MESSENGER MDIS-NAC CDRNAC - Narrow-angle Calibrated Data Record####
 
 ```
-http://pdsimage.wr.usgs.gov/data/mess-e_v_h-mdis-4-cdr-caldata-v1.0/MSGRMDS_2001/CDR/2008_280/CN0131773932M_IF_5.IMG
-http://pdsimage.wr.usgs.gov/data/mess-e_v_h-mdis-4-cdr-caldata-v1.0/MSGRMDS_2001/CDR/2008_280/CN0131773984M_IF_5.IMG
-http://pdsimage.wr.usgs.gov/data/mess-e_v_h-mdis-4-cdr-caldata-v1.0/MSGRMDS_2001/CDR/2008_280/CN0131774854M_IF_5.IMG
-http://pdsimage.wr.usgs.gov/data/mess-e_v_h-mdis-4-cdr-caldata-v1.0/MSGRMDS_2001/CDR/2008_280/CN0131774859M_IF_5.IMG
-http://pdsimage.wr.usgs.gov/data/mess-e_v_h-mdis-4-cdr-caldata-v1.0/MSGRMDS_2001/CDR/2008_280/CN0131774905M_IF_5.IMG
-http://pdsimage.wr.usgs.gov/data/mess-e_v_h-mdis-4-cdr-caldata-v1.0/MSGRMDS_2001/CDR/2008_280/CN0131785976M_IF_5.IMG
+http://pdsimage.wr.usgs.gov/Missions/MESSENGER/MSGRMDS_1001/DATA/2008_014/EN0108828332M.IMG
+http://pdsimage.wr.usgs.gov/Missions/MESSENGER/MSGRMDS_1001/DATA/2008_014/EN0108828384M.IMG
+http://pdsimage.wr.usgs.gov/Missions/MESSENGER/MSGRMDS_1001/DATA/2008_014/EN0108828436M.IMG
+http://pdsimage.wr.usgs.gov/Missions/MESSENGER/MSGRMDS_1001/DATA/2008_014/EN0108828488M.IMG
+http://pdsimage.wr.usgs.gov/Missions/MESSENGER/MSGRMDS_1001/DATA/2008_014/EN0108829085M.IMG
+http://pdsimage.wr.usgs.gov/Missions/MESSENGER/MSGRMDS_1001/DATA/2008_014/EN0108830179M.IMG
 ```
-
----
----
----
----
+data have been processed with isis3 to level2 (i.e. map-projected)
