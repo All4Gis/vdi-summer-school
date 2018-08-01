@@ -21,16 +21,10 @@
 - change projection to both with gdal (see [useful-commands](useful-commands.md))
 - load them onto QGis
 
-#### Hillshading
-- look in the data package the global topographic maps
--
+### Task 3
 
-#### Crater counting
-- thursday....
+- load and mosaic Mercury images using [gdal_merge](https://www.gdal.org/gdal_merge.html)
+- try and repeat from another Solar System body via [POW](https://astrocloud.wr.usgs.gov/index.php?view=pow) (see [resources](resources.md))
 
-## Mosaicking
-
-using [gdal_merge](https://www.gdal.org/gdal_merge.html)
-
-### Process data via POW
-Login into [POW] (see [resources](resources.md))
+### Task 4
+- (hardcopy) try and determine surface ages via crater size-frequency dating
