@@ -7,6 +7,7 @@
   * [examples on topographic maps](http://nbviewer.jupyter.org/github/openplanetary/planetarygeology-book/blob/master/hypsometry_terrestrial_planets.ipynb)
   * [proj4 projections](https://proj4.org/operations/projections/index.html)
 * [Basics of planetary image processing](https://isis.astrogeology.usgs.gov/fixit/projects/isis/wiki/ISIS_Online_Workshops#Fundamentals)
+* [QGis & planetary data - USGS tutorial](https://github.com/USGS-Astrogeology/QGIS_tutorials) by [Trent Hare](https://github.com/thareUSGS)
 
 ## Web based tools
 
