@@ -145,7 +145,7 @@ gdal_merge.py -separate  -o h0988_0000.rgb.tif  h0988_0000_re4.img h0988_0000_gr
 
 ### Pan-sharpening
 
-not sure if ti works on a Raspberry Pi.. but try ;)
+not sure if it works on a Raspberry Pi.. but please feel free try ;)
 
 ```
 gdal_pansharpen.py h0988_0000_nd4.img h0988_0000.rgb.tif h0988_0000.rgb.pansharp.tif
