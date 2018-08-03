@@ -112,7 +112,7 @@ this:
 
 ### mosaic
 
-assuming that all images have the same projection (CRS) and PixelResolution.
+assuming that all images have the same projection (CRS) --and PixelResolution-- (only the same projection is needed).
 
 e..g done for those images:
 
