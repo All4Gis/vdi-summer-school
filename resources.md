@@ -16,7 +16,7 @@
 * PDS Geosciences node - http://ode.rsl.wustl.edu
   * [Mars orbiter data explorer](http://ode.rsl.wustl.edu/mars/index.aspx)
   * [Moon orbiter data explorer](http://ode.rsl.wustl.edu/moon/index.aspx)
-  * [Moon orbiter data explorer](http://ode.rsl.wustl.edu/mercury/index.aspx)
+  * [Mercury orbiter data explorer](http://ode.rsl.wustl.edu/mercury/index.aspx)
 
 * ASU planetary image explorer - http://viewer.mars.asu.edu
 * HRSC data explorer (FU Berlin) - http://maps.planet.fu-berlin.de

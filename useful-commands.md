@@ -63,7 +63,7 @@ gdalwarp -s_srs "+proj=cea +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=2439700 +b=243970
 gdalwarp -s_srs "+proj=cea +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=6051800 +b=6051800 +units=m +no_defs" -t_srs "+proj=eqc +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=6051800 +b=6051800 +units=m +no_defs" venus.magellan.filled.cea.tif venus.magellan.filled.eqc.tif
 ```
 
-One can change the Mooon topography to something similar to what one would see from Earth
+One can change the Moon topography to something similar to what one would see from Earth
 
 ```
 gdalwarp -s_srs "+proj=cea +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=1737400 +b=1737400 +units=m +no_defs" -t_srs "+proj=ortho +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=1737400 +b=1737400 +units=m +no_defs" moon.lola.cea.tif moon.lola.ortho.tif
@@ -131,3 +131,29 @@ gdal_merge.py -o mosaic-test-mercury.tif EN0108828332M.lev2.cub EN0108828384M.le
 ```
 
 <img src="images/mercury-mosaic.png">
+
+### Create RGB composite
+
+e.g. with HRSC Level4 data (orthorectified with the same PixelResolution)
+
+```
+gdal_merge.py -separate  -o h0988_0000.rgb.tif  h0988_0000_re4.img h0988_0000_gr4.img h0988_0000_bl4.img
+
+```
+
+<img src="images/rgb-hrsc.png">
+
+### Pan-sharpening
+
+not sure if ti works on a Raspberry Pi.. but try ;)
+
+```
+gdal_pansharpen.py h0988_0000_nd4.img h0988_0000.rgb.tif h0988_0000.rgb.pansharp.tif
+```
+normal RGB:
+
+<img src="images/rgb-hrsc-closeup.png">
+
+pan-sharpened RGB:
+
+<img src="images/rgb-hrsc-closeup-pansharp.png">
