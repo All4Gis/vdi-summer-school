@@ -17,3 +17,9 @@ see [tasks](tasks.md)
 ### Useful commands (gdal)
 
 see [useful-commands.md](useful-commands.md) (see also [this gist](https://gist.github.com/aprossi/3b8abf758986c083bd5f8c78b42ebb18))
+
+---
+
+see also for the Jacobs model -- https://skfb.ly/6AGME
+
+i.e. 
